@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET STYLISH WITH US | Home</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0f0f0f; color: #fff; line-height: 1.6; }
+        header { background: #1a1a1a; padding: 30px 20px; text-align: center; border-bottom: 3px solid #d4af37; }
+        h1 { font-size: 3.5rem; font-weight: 900; letter-spacing: 2px; color: #fff; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2rem; color: #d4af37; font-style: italic; letter-spacing: 1px; }
+        nav { display: flex; justify-content: center; background: #222; padding: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        nav a { color: #fff; text-decoration: none; margin: 0 20px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        nav a:hover, nav a.active { color: #d4af37; }
+        
+        /* Hero Section */
+        .hero { display: flex; height: 45vh; background: linear-gradient(135deg, #111 0%, #222 100%); align-items: center; justify-content: center; text-align: center; padding: 0 20px; border-bottom: 1px solid #222; }
+        .hero-text h2 { font-size: 3.5rem; margin-bottom: 15px; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .hero-text p { font-size: 1.3rem; margin-bottom: 30px; color: #ddd; }
+        
+        /* Main Grid Containers */
+        .main-container { max-width: 1200px; margin: 60px auto; padding: 0 20px; }
+        .category-section { margin-bottom: 60px; }
+        .category-title { font-size: 2rem; color: #d4af37; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 25px; border-left: 4px solid #d4af37; padding-left: 15px; }
+        
+        .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .image-card { background: #1a1a1a; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.4); transition: transform 0.3s, border-color 0.3s; border: 1px solid #222; }
+        .image-card:hover { transform: translateY(-5px); border-color: #d4af37; }
+        .image-card img { width: 100%; height: 350px; object-fit: cover; display: block; }
+        .image-caption { padding: 15px; text-align: center; background: #161616; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; font-size: 0.95rem; }
+
+        /* Promotions & Buttons */
+        .promo-section { max-width: 900px; margin: 60px auto; padding: 40px; background: #1a1a1a; border-left: 5px solid #d4af37; border-radius: 8px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .promo-badge { background: #d4af37; color: #000; padding: 6px 18px; font-weight: bold; border-radius: 20px; display: inline-block; margin-bottom: 20px; letter-spacing: 1px; }
+        .promo-section h3 { font-size: 2rem; margin-bottom: 15px; color: #fff; }
+        .btn { display: inline-block; background: #d4af37; color: #000; padding: 14px 35px; font-weight: bold; text-decoration: none; border-radius: 5px; transition: 0.3s; border: 2px solid #d4af37; }
+        .btn:hover { background: transparent; color: #d4af37; }
+        
+        /* Footer Info & Details Layout */
+        footer { background: #111; text-align: center; padding: 40px 20px; color: #777; font-size: 0.9rem; border-top: 1px solid #222; }
+        .footer-contacts { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-bottom: 25px; font-size: 1.05rem; }
+        .footer-contacts span { color: #ccc; }
+        .footer-contacts strong { color: #d4af37; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .footer-contacts a { color: #fff; text-decoration: none; transition: 0.2s; }
+        .footer-contacts a:hover { color: #d4af37; }
+        .copyright { border-top: 1px solid #222; padding-top: 20px; max-width: 600px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GET STYLISH WITH US</h1>
+    <div class="subtitle">Hair Styling by the Most Skillful Barbers & Premium Fashion</div>
+</header>
+
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="hair.html">Hair Salon</a>
+    <a href="fashion.html">Clothes & Shoes</a>
+    <a href="eyewear.html">Glasses</a>
+    <a href="booking.html">Booking & Contact</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Where Style Meets Perfection</h2>
+        <p>Step in for a sharp trim. Walk out with a complete wardrobe upgrade.</p>
+        <a href="booking.html" class="btn">Book Appointment Online</a>
+    </div>
+</section>
+
+<!-- Main Showcase Container -->
+<main class="main-container">
+
+    <!-- Category 1: Hair Styling -->
+    <section class="category-section">
+        <h3 class="category-title">Premium Hair Cuts & Styling</h3>
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80" alt="Classic Pompadour Haircut">
+                <div class="image-caption">Classic Fade Pompadour</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80" alt="Beard Grooming and Razor Shave">
+                <div class="image-caption">Razor Edge Beard Sculpting</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1605497746444-ac9da58d440a?auto=format&fit=crop&w=500&q=80" alt="Modern Textured Crop">
+                <div class="image-caption">Modern Textured Crop</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 2: Clothes & Shoes -->
+    <section class="category-section">
+        <h3 class="category-title">The Gentleman's Wardrobe</h3>
+        <div class="image-grid">
+            <!-- Coat Suit -->
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=500&q=80" alt="Bespoke Tailored Coat Suit">
+                <div class="image-caption">Bespoke Coat Suits</div>
+            </div>
+            <!-- Gentleman Outfit -->
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=80" alt="Classic Gentleman Outfit">
+                <div class="image-caption">Gentleman Outfits</div>
+            </div>
+            <!-- Leather Shoes -->
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=500&q=80" alt="Handcrafted Premium Leather Shoes">
+                <div class="image-caption">Handcrafted Leather Shoes</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category 3: Glasses -->
+    <section class="category-section">
+        <h3 class="category-title">Designer Eyewear & Glasses</h3>
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=500&q=80" alt="Classic Luxury Sunglasses">
+                <div class="image-caption">Classic Statement Aviators</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=500&q=80" alt="Modern Minimalist Frames">
+                <div class="image-caption">Modern Minimalist Optical Frames</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=500&q=80" alt="Vintage Aesthetic Glasses">
+                <div class="image-caption">Vintage Acetate Collections</div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<section class="promo-section">
+    <span class="promo-badge">SPECIAL OFFER</span>
+    <h3>Marriage Ceremony Package</h3>
+    <p style="margin: 15px 0 25px; color: #ccc; line-height: 1.8; font-size: 1.1rem;">
+        Groom & Bride Elegance Package: Includes full signature premium grooming for the groom, elegant formal bridal hair styling, and a personal wardrobe consultation + 15% off any clothing/shoe purchases.
+    </p>
+    <p style="font-size: 2rem; color: #d4af37; font-weight: bold; margin-bottom: 20px;">Special Price: ¥45,000 <span style="text-decoration: line-through; font-size: 1.2rem; color: #777; font-weight: normal; margin-left: 10px;">(Regular: ¥60,000)</span></p>
+    <a href="booking.html" class="btn">Reserve Special Package</a>
+</section>
+
+<footer>
+    <div class="footer-contacts">
+        <div><strong>Call Us:</strong> <a href="tel:9876543210">9876543210</a></div>
+        <div><strong>Email:</strong> <a href="mailto:info@getstylishwithus.com">info@getstylishwithus.com</a></div>
+        <div><strong>Location:</strong> <span>Osaka Namba, Japan</span></div>
+    </div>
+    <div class="copyright">
+        &copy; 2026 GET STYLISH WITH US. All Rights Reserved.
+    </div>
+</footer>
+
+</body>
+</html>
