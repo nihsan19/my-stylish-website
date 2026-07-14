@@ -1,0 +1,24 @@
+<!-- Hairstyle Showcase -->
+<section class="haircut-showcase">
+    <h2>Trending Styles</h2>
+    <div class="showcase-container">
+        <!-- Style 1 -->
+        <div class="style-item">
+            <span class="number">01</span>
+            <h3>The Executive Fade</h3>
+            <p>Sharp skin fade with a classic side-part layout.</p>
+        </div>
+        <!-- Style 2 -->
+        <div class="style-item">
+            <span class="number">02</span>
+            <h3>Textured Crop</h3>
+            <p>Modern forward fringe heavy with top texture.</p>
+        </div>
+        <!-- Style 3 -->
+        <div class="style-item">
+            <span class="number">03</span>
+            <h3>Classic Buzz Cut</h3>
+            <p>Clean, low-maintenance uniform buzz with razor line-up.</p>
+        </div>
+    </div>
+</section>
