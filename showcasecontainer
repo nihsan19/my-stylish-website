@@ -1,0 +1,23 @@
+<!-- Main Showcase Container -->
+<main class="main-container">
+
+    <!-- Category 1: Hair Styling -->
+    <section class="category-section">
+        <h3 class="category-title">Premium Hair Cuts & Styling</h3>
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80" alt="Classic Pompadour Haircut">
+                <div class="image-caption">Classic Fade Pompadour</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80" alt="Beard Grooming and Razor Shave">
+                <div class="image-caption">Razor Edge Beard Sculpting</div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1605497746444-ac9da58d440a?auto=format&fit=crop&w=500&q=80" alt="Modern Textured Crop">
+                <div class="image-caption">Modern Textured Crop</div>
+            </div>
+        </div>
+    </section>
+
+    
