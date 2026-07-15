@@ -1,42 +1,64 @@
-<!-- Fashion Catalog Grid -->
- <!-- Navigation Bar -->
-<header style="background-color: #111; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center;">
-    <h1 style="color: #fff; margin: 0; font-size: 24px;">My Studio</h1>
-    <nav>
-        <a href="index.html" style="color: #fff; text-decoration: none; margin-left: 20px;">Home</a>
-        <a href="fashion.html" style="color: #fff; text-decoration: none; margin-left: 20px; font-weight: bold;">Fashion</a>
-    </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET STYLISH WITH US | Clothes & Shoes</title>
 
-    <section class="fashion-catalog" style="padding: 60px 10%; text-align: center;">
-        <h2 style="margin-bottom: 40px; font-size: 28px;">New Apparel Arrivals</h2>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- १. Navigation Bar (कालो र सुनौलो थिम) -->
+    <header style="background-color: #111; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #d4af37;">
+        <h1 style="color: #fff; margin: 0; font-size: 24px; font-weight: 900; letter-spacing: 2px;">GET STYLISH WITH US</h1>
+        <nav style="display: flex; gap: 20px;">
+            <a href="index.html" style="color: #fff; text-decoration: none; font-weight: 600; text-transform: uppercase;">Home</a>
+            <a href="hair.html" style="color: #fff; text-decoration: none; font-weight: 600; text-transform: uppercase;">Hair Salon</a>
+            <a href="fashion.html" style="color: #d4af37; text-decoration: none; font-weight: 600; text-transform: uppercase;">Clothes & Shoes</a>
+            <a href="eyewear.html" style="color: #fff; text-decoration: none; font-weight: 600; text-transform: uppercase;">Glasses</a>
+            <a href="booking.html" style="color: #fff; text-decoration: none; font-weight: 600; text-transform: uppercase;">Booking</a>
+        </nav>
+    </header>
+
+    <!-- २. Fashion Catalog Grid (उत्पादनहरू देखिने ठाउँ) -->
+    <section class="fashion-catalog" style="padding: 60px 10%; text-align: center; background-color: #0f0f0f;">
+        <h2 style="margin-bottom: 40px; font-size: 28px; color: #d4af37; text-transform: uppercase; letter-spacing: 2px; border-left: 4px solid #d4af37; padding-left: 15px; display: inline-block;">New Apparel Arrivals</h2>
         
-        <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+        <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 30px;">
             
             <!-- Item 1: Blazer -->
-            <div class="product-card" style="text-align: left; background: #fafafa; padding: 15px; border-radius: 4px;">
-                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=500" alt="Premium Suit" style="width: 100%; height: 320px; object-fit: cover; border-radius: 2px;">
-                <h3 style="margin: 15px 0 5px; font-size: 18px;">Tailored Smart Blazers</h3>
-                <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Perfect fit for casual elegance or formal events.</p>
-                <span style="font-weight: bold; color: #111;">$120.00</span>
+            <div class="product-card" style="text-align: left; background: #1a1a1a; padding: 15px; border-radius: 6px; border: 1px solid #222;">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=500" alt="Premium Suit" style="width: 100%; height: 320px; object-fit: cover; border-radius: 4px;">
+                <h3 style="margin: 15px 0 5px; font-size: 18px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">Tailored Smart Blazers</h3>
+                <p style="color: #bbb; font-size: 14px; margin-bottom: 10px;">Perfect fit for casual elegance or formal events.</p>
+                <span style="font-weight: bold; color: #d4af37; font-size: 1.1rem;">$120.00</span>
             </div>
 
             <!-- Item 2: Jacket -->
-            <div class="product-card" style="text-align: left; background: #fafafa; padding: 15px; border-radius: 4px;">
-                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=500" alt="Casual Jacket" style="width: 100%; height: 320px; object-fit: cover; border-radius: 2px;">
-                <h3 style="margin: 15px 0 5px; font-size: 18px;">Minimalist Jackets</h3>
-                <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Lightweight outerwear designed for day-to-day comfort.</p>
-                <span style="font-weight: bold; color: #111;">$85.00</span>
+            <div class="product-card" style="text-align: left; background: #1a1a1a; padding: 15px; border-radius: 6px; border: 1px solid #222;">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=500" alt="Casual Jacket" style="width: 100%; height: 320px; object-fit: cover; border-radius: 4px;">
+                <h3 style="margin: 15px 0 5px; font-size: 18px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">Minimalist Jackets</h3>
+                <p style="color: #bbb; font-size: 14px; margin-bottom: 10px;">Lightweight outerwear designed for day-to-day comfort.</p>
+                <span style="font-weight: bold; color: #d4af37; font-size: 1.1rem;">$85.00</span>
             </div>
 
             <!-- Item 3: Knitted Sweater -->
-            <div class="product-card" style="text-align: left; background: #fafafa; padding: 15px; border-radius: 4px;">
-                <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500" alt="Knitted Sweater" style="width: 100%; height: 320px; object-fit: cover; border-radius: 2px;">
-                <h3 style="margin: 15px 0 5px; font-size: 18px;">Premium Knit Sweaters</h3>
-                <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Soft, breathable fabrics crafted for seasonal transitions.</p>
-                <span style="font-weight: bold; color: #111;">$75.00</span>
+            <div class="product-card" style="text-align: left; background: #1a1a1a; padding: 15px; border-radius: 6px; border: 1px solid #222;">
+                <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500" alt="Knitted Sweater" style="width: 100%; height: 320px; object-fit: cover; border-radius: 4px;">
+                <h3 style="margin: 15px 0 5px; font-size: 18px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">Premium Knit Sweaters</h3>
+                <p style="color: #bbb; font-size: 14px; margin-bottom: 10px;">Soft, breathable fabrics crafted for seasonal transitions.</p>
+                <span style="font-weight: bold; color: #d4af37; font-size: 1.1rem;">$75.00</span>
             </div>
-            <!-- Footer Section -->
-<footer style="background-color: #fafafa; text-align: center; padding: 30px; margin-top: 50px; border-top: 1px solid #eee;">
-    <p style="color: #666; margin: 0;">&copy; 2026 My Stylish Website. All rights reserved.</p>
-</footer>
+
+        </div>
+    </section>
+
+    <!-- ३. Footer Section (कालो र स्टाइलिस थिम) -->
+    <footer style="background-color: #111; text-align: center; padding: 40px 20px; color: #777; font-size: 0.9rem; border-top: 1px solid #222;">
+        <p style="color: #ccc; margin: 0;">&copy; 2026 GET STYLISH WITH US. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
