@@ -3,45 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GET STYLISH WITH US | Home</title>
+    <title>GET STYLISH WITH US</title>
+    <!-- यसले तपाईंको style.css सँग लिंक गराउँछ -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* स्मूथ स्क्रोलिङको लागि */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-    <h1>GET STYLISH WITH US</h1>
-    <div class="subtitle">Hair Styling by the Most Skillful Barbers & Premium Fashion</div>
-</header>
+    <!-- १. हेडर र नेभिगेसन -->
+    <header>
+        <h1>GET STYLISH WITH US</h1>
+        <div class="subtitle">Your Premium Grooming & Fashion Destination</div>
+    </header>
 
-<nav>
-    <a href="index.html" class="active">Home</a>
-    <a href="hair.html">Hair Salon</a>
-    <a href="fashion.html">Clothes & Shoes</a>
-    <a href="eyewear.html">Glasses</a>
-    <a href="booking.html">Booking & Contact</a>
-</nav>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#hair-salon">Hair Salon</a>
+        <a href="#clothes-shoes">Clothes & Shoes</a>
+        <a href="#glasses">Glasses</a>
+        <a href="#booking">Booking</a>
+    </nav>
 
-<section class="hero">
-    <div class="hero-text">
-        <h2>Where Style Meets Perfection</h2>
-        <p>Step in for a sharp trim. Walk out with a complete wardrobe upgrade.</p>
-        <a href="booking.html" class="btn">Book Appointment Online</a>
+    <!-- २. Hero Section (Home) -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>EMBRACE YOUR STYLE</h2>
+            <p>From premium haircuts to trendsetting apparel, we define your look.</p>
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- मुख्य कन्टेनर -->
+    <div class="main-container">
+
+        <!-- ३. Hair Salon Section -->
+        <section id="hair-salon" class="category-section">
+            <h2 class="category-title">Premium Hair Salon</h2>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" alt="Classic Haircut">
+                    <div class="image-caption">Classic Haircut & Styling</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80" alt="Beard Grooming">
+                    <div class="image-caption">Beard Grooming & Shave</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1517832606589-7a598b647192?auto=format&fit=crop&w=600&q=80" alt="Hair Coloring">
+                    <div class="image-caption">Premium Hair Coloring</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ४. Clothes & Shoes Section -->
+        <section id="clothes-shoes" class="category-section">
+            <h2 class="category-title">New Apparel Arrivals</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80" alt="Tailored Blazer">
+                    <h3>Tailored Smart Blazers</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Perfect fit for casual elegance or formal events.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥18,000</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80" alt="Minimalist Jacket">
+                    <h3>Minimalist Jackets</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Lightweight outerwear designed for day-to-day comfort.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥12,500</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80" alt="Knit Sweater">
+                    <h3>Premium Knit Sweaters</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Soft, breathable fabrics crafted for seasonal transitions.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥11,000</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ५. Glasses Section -->
+        <section id="glasses" class="category-section">
+            <h2 class="category-title">Designer Eyewear</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80" alt="Classic Sunglasses">
+                    <h3>Classic Aviators</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Timeless design with full UV protection.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥6,800</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=600&q=80" alt="Modern Frames">
+                    <h3>Modern Matte Frames</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Sleek and lightweight glasses for daily office wear.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥9,000</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80" alt="Retro Glasses">
+                    <h3>Retro Round Eyewear</h3>
+                    <p style="padding: 0 15px; text-align: center; color: #ccc; font-size: 0.9rem;">Vintage aesthetics combined with modern durability.</p>
+                    <h3 style="color: #d4af37; padding-top: 5px;">¥8,000</h3>
+                </div>
+            </div>
+        </section>
+
     </div>
-</section>
 
+    <!-- ६. Booking & Promotion Section -->
+    <section id="booking" class="promo-section">
+        <div class="promo-badge">Limited Time Offer</div>
+        <h3>Book an Appointment & Get 20% Off</h3>
+        <p style="color: #ccc; margin-bottom: 25px;">Experience world-class salon services and custom fitting at our premier store.</p>
+        <a href="tel:+1234567890" class="btn">Call to Book Now</a>
+    </section>
 
-<footer>
-    <div class="footer-contacts">
-        <div><strong>Call Us:</strong> <a href="tel:9876543210">9876543210</a></div>
-        <div><strong>Email:</strong> <a href="mailto:info@getstylishwithus.com">info@getstylishwithus.com</a></div>
-        <div><strong>Location:</strong> <span>Osaka Namba, Japan</span></div>
-    </div>
-    <div class="copyright">
-        &copy; 2026 GET STYLISH WITH US. All Rights Reserved.
-    </div>
-</footer>
+    <!-- ७. Footer Info -->
+    <footer>
+        <div class="footer-contacts">
+            <span><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></span>
+            <span><strong>Location:</strong> Main Street, Fashion Hub</span>
+            <span><strong>Hours:</strong> Mon-Sat: 9 AM - 8 PM</span>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Get Stylish With Us. All rights reserved.</p>
+        </div>
+    </footer>
 
-    <!-- JavaScript script.js file connected here -->
-    <script src="script.js"></script>
 </body>
 </html>
